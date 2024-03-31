@@ -1,0 +1,110 @@
+{
+  "address": "0x6EdEa7bdd4E1d43b28315C1bb3cb58C4cc49E5dD",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "price",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_value",
+          "type": "uint256"
+        }
+      ],
+      "name": "setValue",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xc74b959333d7e0c42c1ea19fc8398ebd3c1cc2e47777a0e266bd76b2188cae59",
+  "receipt": {
+    "to": null,
+    "from": "0x76F749EdA42f30BEd3F548aaae47dcd85A714417",
+    "contractAddress": "0x6EdEa7bdd4E1d43b28315C1bb3cb58C4cc49E5dD",
+    "transactionIndex": 0,
+    "gasUsed": "18530560",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x0984290662a15199a372ae0f63eb320c75d6af38928d2f91d71724c73c149de9",
+    "transactionHash": "0xc74b959333d7e0c42c1ea19fc8398ebd3c1cc2e47777a0e266bd76b2188cae59",
+    "logs": [],
+    "blockNumber": 288884386,
+    "cumulativeGasUsed": "18530560",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x76F749EdA42f30BEd3F548aaae47dcd85A714417"
+  ],
+  "numDeployments": 3,
+  "solcInputHash": "922bcf83b3faf36c7ce42e24f00871e9",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_value\",\"type\":\"uint256\"}],\"name\":\"setValue\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"BuidlGuidl\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"A smart contract that allows changing a state variable of the contract and tracking the changes It also allows the owner to withdraw the Ether in the contract\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/YourContract.sol\":\"YourContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/YourContract.sol\":{\"content\":\"//SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\n// Useful for debugging. Remove when deploying to a live network.\\n\\n// Use openzeppelin to inherit battle-tested implementations (ERC20, ERC721, etc)\\n// import \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\n\\n/**\\n * A smart contract that allows changing a state variable of the contract and tracking the changes\\n * It also allows the owner to withdraw the Ether in the contract\\n * @author BuidlGuidl\\n */\\n\\n\\ncontract YourContract {\\n\\t// State Variables\\n\\taddress public immutable owner;\\n\\n\\tuint256 public price = 0;\\n\\n\\t// Constructor: Called once on contract deployment\\n\\t// Check packages/hardhat/deploy/00_deploy_your_contract.ts\\n\\tconstructor(address _owner) {\\n\\t\\towner = _owner;\\n\\t}\\n\\n\\tfunction setValue(uint256 _value) public {\\n\\t\\tprice = _value;\\n\\t}\\t\\n}\\n\",\"keccak256\":\"0x5263da1354d8173c04bc9828fc503e27b4882c6cc9b62947657c64befae8feaf\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60a06040526000805534801561001457600080fd5b5060405161018538038061018583398101604081905261003391610044565b6001600160a01b0316608052610074565b60006020828403121561005657600080fd5b81516001600160a01b038116811461006d57600080fd5b9392505050565b60805160f961008c60003960006057015260f96000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063552410771460415780638da5cb5b146053578063a035b1fe146096575b600080fd5b6051604c36600460ab565b600055565b005b60797f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b0390911681526020015b60405180910390f35b609e60005481565b604051908152602001608d565b60006020828403121560bc57600080fd5b503591905056fea26469706673582212208e08fc5390ab69c50d5cce1d2328374c9677eee76cd076944fa23f8c475a4c4f64736f6c63430008110033",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c8063552410771460415780638da5cb5b146053578063a035b1fe146096575b600080fd5b6051604c36600460ab565b600055565b005b60797f000000000000000000000000000000000000000000000000000000000000000081565b6040516001600160a01b0390911681526020015b60405180910390f35b609e60005481565b604051908152602001608d565b60006020828403121560bc57600080fd5b503591905056fea26469706673582212208e08fc5390ab69c50d5cce1d2328374c9677eee76cd076944fa23f8c475a4c4f64736f6c63430008110033",
+  "devdoc": {
+    "author": "BuidlGuidl",
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "A smart contract that allows changing a state variable of the contract and tracking the changes It also allows the owner to withdraw the Ether in the contract",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 7,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "price",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      }
+    ],
+    "types": {
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

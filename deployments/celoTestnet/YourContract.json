@@ -1,0 +1,262 @@
+{
+  "address": "0x2531aa88fEAaF66640810FF3Bbe65F54f0CEdef3",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_owner",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_rnd",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [],
+      "name": "deployDate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "from",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "string",
+          "name": "txHash",
+          "type": "string"
+        },
+        {
+          "internalType": "address",
+          "name": "_from",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "_to",
+          "type": "address"
+        }
+      ],
+      "name": "initPayment",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "price",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "seed",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "to",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "transactionHash",
+      "outputs": [
+        {
+          "internalType": "string",
+          "name": "",
+          "type": "string"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "transactionState",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0x2604b67b06eaa1ea461a705ff56a2b27f8da55a0c3cd559b71ae652fee278393",
+  "receipt": {
+    "to": null,
+    "from": "0x76F749EdA42f30BEd3F548aaae47dcd85A714417",
+    "contractAddress": "0x2531aa88fEAaF66640810FF3Bbe65F54f0CEdef3",
+    "transactionIndex": 0,
+    "gasUsed": "380051",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x10e2c0d6487d137811f46c38607bc24e838386fbfc82b3f4376eb24a64c773fb",
+    "transactionHash": "0x2604b67b06eaa1ea461a705ff56a2b27f8da55a0c3cd559b71ae652fee278393",
+    "logs": [],
+    "blockNumber": 23291898,
+    "cumulativeGasUsed": "380051",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0x76F749EdA42f30BEd3F548aaae47dcd85A714417",
+    4137
+  ],
+  "numDeployments": 35,
+  "solcInputHash": "9ae47059a656dc34fb851a7936819554",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_owner\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"_rnd\",\"type\":\"uint256\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[],\"name\":\"deployDate\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"from\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"string\",\"name\":\"txHash\",\"type\":\"string\"},{\"internalType\":\"address\",\"name\":\"_from\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"_to\",\"type\":\"address\"}],\"name\":\"initPayment\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"owner\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"price\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"seed\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"to\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"transactionHash\",\"outputs\":[{\"internalType\":\"string\",\"name\":\"\",\"type\":\"string\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"transactionState\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"author\":\"BuidlGuidl\",\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"notice\":\"A smart contract that allows changing a state variable of the contract and tracking the changes It also allows the owner to withdraw the Ether in the contract\",\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/YourContract.sol\":\"YourContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/YourContract.sol\":{\"content\":\"//SPDX-License-Identifier: MIT\\npragma solidity ^0.8.0;\\n\\n// Useful for debugging. Remove when deploying to a live network.\\n\\n// Use openzeppelin to inherit battle-tested implementations (ERC20, ERC721, etc)\\n// import \\\"@openzeppelin/contracts/access/Ownable.sol\\\";\\n\\n/**\\n * A smart contract that allows changing a state variable of the contract and tracking the changes\\n * It also allows the owner to withdraw the Ether in the contract\\n * @author BuidlGuidl\\n */\\n\\n\\ncontract YourContract {\\n\\t// State Variables\\n\\taddress public immutable owner;\\n\\n\\tuint public deployDate;\\n\\tuint256 public price = 0;\\n\\tuint public transactionState;\\n\\tuint public seed;\\n\\n\\tstring public transactionHash;\\n\\taddress public from;\\n\\taddress public to;\\n\\n\\t// Constructor: Called once on contract deployment\\n\\t// Check packages/hardhat/deploy/00_deploy_your_contract.ts\\n\\tconstructor(address _owner, uint _rnd) {\\n\\t\\towner = _owner;\\n\\t\\tseed = _rnd;\\n\\t\\tdeployDate = block.timestamp;\\n\\t\\ttransactionState = 0;\\n\\t}\\n\\n\\tfunction initPayment (string memory txHash, address _from, address _to ) public {\\n\\t\\ttransactionHash = txHash;\\n\\t\\tfrom = _from;\\n\\t\\tto = _to;\\n\\t}\\n}\\n\",\"keccak256\":\"0x25b2be2a6284448dedf1b16ceb01dc25b929b229f488d7e21f310d0915a0c11b\",\"license\":\"MIT\"}},\"version\":1}",
+  "bytecode": "0x60a0604052600060015534801561001557600080fd5b506040516105a53803806105a583398101604081905261003491610053565b6001600160a01b0390911660805260035542600090815560025561008d565b6000806040838503121561006657600080fd5b82516001600160a01b038116811461007d57600080fd5b6020939093015192949293505050565b6080516104fd6100a8600039600061010f01526104fd6000f3fe608060405234801561001057600080fd5b50600436106100935760003560e01c80637d94792a116100665780637d94792a146101015780638da5cb5b1461010a578063a035b1fe14610131578063ca9c80221461013a578063d5ce33891461014f57600080fd5b80630ac1c3131461009857806313151981146100b6578063428669ba146100e157806369668fe9146100f8575b600080fd5b6100a0610162565b6040516100ad919061022c565b60405180910390f35b6006546100c9906001600160a01b031681565b6040516001600160a01b0390911681526020016100ad565b6100ea60025481565b6040519081526020016100ad565b6100ea60005481565b6100ea60035481565b6100c97f000000000000000000000000000000000000000000000000000000000000000081565b6100ea60015481565b61014d6101483660046102ac565b6101f0565b005b6005546100c9906001600160a01b031681565b6004805461016f9061037e565b80601f016020809104026020016040519081016040528092919081815260200182805461019b9061037e565b80156101e85780601f106101bd576101008083540402835291602001916101e8565b820191906000526020600020905b8154815290600101906020018083116101cb57829003601f168201915b505050505081565b60046101fc8482610407565b50600580546001600160a01b039384166001600160a01b0319918216179091556006805492909316911617905550565b600060208083528351808285015260005b818110156102595785810183015185820160400152820161023d565b506000604082860101526040601f19601f8301168501019250505092915050565b634e487b7160e01b600052604160045260246000fd5b80356001600160a01b03811681146102a757600080fd5b919050565b6000806000606084860312156102c157600080fd5b833567ffffffffffffffff808211156102d957600080fd5b818601915086601f8301126102ed57600080fd5b8135818111156102ff576102ff61027a565b604051601f8201601f19908116603f011681019083821181831017156103275761032761027a565b8160405282815289602084870101111561034057600080fd5b82602086016020830137600060208483010152809750505050505061036760208501610290565b915061037560408501610290565b90509250925092565b600181811c9082168061039257607f821691505b6020821081036103b257634e487b7160e01b600052602260045260246000fd5b50919050565b601f82111561040257600081815260208120601f850160051c810160208610156103df5750805b601f850160051c820191505b818110156103fe578281556001016103eb565b5050505b505050565b815167ffffffffffffffff8111156104215761042161027a565b6104358161042f845461037e565b846103b8565b602080601f83116001811461046a57600084156104525750858301515b600019600386901b1c1916600185901b1785556103fe565b600085815260208120601f198616915b828110156104995788860151825594840194600190910190840161047a565b50858210156104b75787850151600019600388901b60f8161c191681555b5050505050600190811b0190555056fea2646970667358221220708233178a2ec6d9451852d8a802b5b3a8f146248bc5b806c7431d7db037cb6364736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b50600436106100935760003560e01c80637d94792a116100665780637d94792a146101015780638da5cb5b1461010a578063a035b1fe14610131578063ca9c80221461013a578063d5ce33891461014f57600080fd5b80630ac1c3131461009857806313151981146100b6578063428669ba146100e157806369668fe9146100f8575b600080fd5b6100a0610162565b6040516100ad919061022c565b60405180910390f35b6006546100c9906001600160a01b031681565b6040516001600160a01b0390911681526020016100ad565b6100ea60025481565b6040519081526020016100ad565b6100ea60005481565b6100ea60035481565b6100c97f000000000000000000000000000000000000000000000000000000000000000081565b6100ea60015481565b61014d6101483660046102ac565b6101f0565b005b6005546100c9906001600160a01b031681565b6004805461016f9061037e565b80601f016020809104026020016040519081016040528092919081815260200182805461019b9061037e565b80156101e85780601f106101bd576101008083540402835291602001916101e8565b820191906000526020600020905b8154815290600101906020018083116101cb57829003601f168201915b505050505081565b60046101fc8482610407565b50600580546001600160a01b039384166001600160a01b0319918216179091556006805492909316911617905550565b600060208083528351808285015260005b818110156102595785810183015185820160400152820161023d565b506000604082860101526040601f19601f8301168501019250505092915050565b634e487b7160e01b600052604160045260246000fd5b80356001600160a01b03811681146102a757600080fd5b919050565b6000806000606084860312156102c157600080fd5b833567ffffffffffffffff808211156102d957600080fd5b818601915086601f8301126102ed57600080fd5b8135818111156102ff576102ff61027a565b604051601f8201601f19908116603f011681019083821181831017156103275761032761027a565b8160405282815289602084870101111561034057600080fd5b82602086016020830137600060208483010152809750505050505061036760208501610290565b915061037560408501610290565b90509250925092565b600181811c9082168061039257607f821691505b6020821081036103b257634e487b7160e01b600052602260045260246000fd5b50919050565b601f82111561040257600081815260208120601f850160051c810160208610156103df5750805b601f850160051c820191505b818110156103fe578281556001016103eb565b5050505b505050565b815167ffffffffffffffff8111156104215761042161027a565b6104358161042f845461037e565b846103b8565b602080601f83116001811461046a57600084156104525750858301515b600019600386901b1c1916600185901b1785556103fe565b600085815260208120601f198616915b828110156104995788860151825594840194600190910190840161047a565b50858210156104b75787850151600019600388901b60f8161c191681555b5050505050600190811b0190555056fea2646970667358221220708233178a2ec6d9451852d8a802b5b3a8f146248bc5b806c7431d7db037cb6364736f6c63430008110033",
+  "devdoc": {
+    "author": "BuidlGuidl",
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "notice": "A smart contract that allows changing a state variable of the contract and tracking the changes It also allows the owner to withdraw the Ether in the contract",
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 6,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "deployDate",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 9,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "price",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 11,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "transactionState",
+        "offset": 0,
+        "slot": "2",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 13,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "seed",
+        "offset": 0,
+        "slot": "3",
+        "type": "t_uint256"
+      },
+      {
+        "astId": 15,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "transactionHash",
+        "offset": 0,
+        "slot": "4",
+        "type": "t_string_storage"
+      },
+      {
+        "astId": 17,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "from",
+        "offset": 0,
+        "slot": "5",
+        "type": "t_address"
+      },
+      {
+        "astId": 19,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "to",
+        "offset": 0,
+        "slot": "6",
+        "type": "t_address"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_string_storage": {
+        "encoding": "bytes",
+        "label": "string",
+        "numberOfBytes": "32"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}

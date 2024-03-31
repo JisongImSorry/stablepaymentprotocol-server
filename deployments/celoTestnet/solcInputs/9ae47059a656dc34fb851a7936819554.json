@@ -1,0 +1,35 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/YourContract.sol": {
+      "content": "//SPDX-License-Identifier: MIT\npragma solidity ^0.8.0;\n\n// Useful for debugging. Remove when deploying to a live network.\n\n// Use openzeppelin to inherit battle-tested implementations (ERC20, ERC721, etc)\n// import \"@openzeppelin/contracts/access/Ownable.sol\";\n\n/**\n * A smart contract that allows changing a state variable of the contract and tracking the changes\n * It also allows the owner to withdraw the Ether in the contract\n * @author BuidlGuidl\n */\n\n\ncontract YourContract {\n\t// State Variables\n\taddress public immutable owner;\n\n\tuint public deployDate;\n\tuint256 public price = 0;\n\tuint public transactionState;\n\tuint public seed;\n\n\tstring public transactionHash;\n\taddress public from;\n\taddress public to;\n\n\t// Constructor: Called once on contract deployment\n\t// Check packages/hardhat/deploy/00_deploy_your_contract.ts\n\tconstructor(address _owner, uint _rnd) {\n\t\towner = _owner;\n\t\tseed = _rnd;\n\t\tdeployDate = block.timestamp;\n\t\ttransactionState = 0;\n\t}\n\n\tfunction initPayment (string memory txHash, address _from, address _to ) public {\n\t\ttransactionHash = txHash;\n\t\tfrom = _from;\n\t\tto = _to;\n\t}\n}\n"
+    }
+  },
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode",
+          "evm.deployedBytecode",
+          "evm.methodIdentifiers",
+          "metadata",
+          "devdoc",
+          "userdoc",
+          "storageLayout",
+          "evm.gasEstimates"
+        ],
+        "": [
+          "ast"
+        ]
+      }
+    },
+    "metadata": {
+      "useLiteralContent": true
+    }
+  }
+}
